@@ -10,7 +10,7 @@ module Helper
   end
 
   def single_country(name)
-    # transfering fetched data to json object
+    # transfering fetched data to json object.
     value = create_countries_array.find { |el| el['name'] == name }
     JSON.parse(value.to_json)
   end
