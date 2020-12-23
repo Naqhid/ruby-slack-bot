@@ -14,7 +14,7 @@ class GetCapital < SlackRubyBot::Commands::Base
   end
 
   all_countries_names.each do |name|
-    # show coutry population
+    # show coutry population.
     command "#{name} population" do |client, data, _match|
       country = Country.new(name)
       message = "population of #{country.country_name} is #{country.country_population} people"
