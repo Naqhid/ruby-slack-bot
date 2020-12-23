@@ -1,7 +1,7 @@
 require_relative './helper'
 require_relative './country'
 
-# find capital by country name
+# find capital by country name.
 class GetCapital < SlackRubyBot::Commands::Base
   all_countries_names = Country.all_countries_names
 
