@@ -1,5 +1,5 @@
 require 'restcountry'
-# fetch data from restcountry api and create helper methods.
+# fetch data from restcountry api and create helper methods
 module Helper
   def create_countries_array
     JSON.parse(Restcountry::Country.all.to_json)
