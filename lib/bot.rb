@@ -1,4 +1,4 @@
-# responds to help command
+# responds to help commands
 class Bot < SlackRubyBot::Bot
   help do
     title 'Globus-bot'
