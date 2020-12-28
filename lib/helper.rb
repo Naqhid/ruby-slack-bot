@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'restcountry'
 # fetch data from restcountry api and create helper methods
 module Helper
