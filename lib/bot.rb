@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# responds to help command.
+# responds to help command
 class Bot < SlackRubyBot::Bot
   help do
     title 'Globus-bot'
